@@ -1,29 +1,28 @@
-package ww;
+    interface Foo{
+    11. int bar();
+    12. }
+    13.
+            14. public class Beta {
+    15.
+            16. class A implements Foo{
+    17. public int bar(){return 1;}
+    18. }
+    19.
+            20. public int fubar(Foo foo){return foo.bar();}
+    21.
+            22. public void testFoo(){
+            23.
+            24. class A implements Foo{
+    25. public int bar() {return 2;}
+    26. }
+            Which three statements are true? (Choose three.)
 
-public class interfacew {
-        interface Foo{
-     int bar();
-     }
-    public class Beta {
-
-                     class A implements Foo{
-    public int bar(){return 1;}
-     }
-
-             public int fubar(Foo foo){return foo.bar();}
-
-             public void testFoo(){
-
-                 class A implements Foo{
-     public int bar() {return 2;}
-     }
-
-                 System.out.println(fubar(new A()));
-                 }
-                  public static void main(String[] argv){
-                 new Beta().testFoo();
-    }
-//        Which three statements are true? (Choose three.)
+            27.
+            28. System.out.println(fubar(new A()));
+            29. }
+    30.
+            31. public static void main(String[] argv){
+            32. new Beta().testFoo();
 //        A. Compilation fails.
 //        B. The code compiles and the output is 2.
 //        C. If lines 16, 17 and 18 were removed, compilation would fail.
