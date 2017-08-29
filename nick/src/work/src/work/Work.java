@@ -2,12 +2,12 @@ package work;
 
 public class Work {
     public static void main(String[] args){
-        String i = "Nike";
+        work2 i = new work2();
         work2 d = new work2();
         d.name ="來西";
-        System.out.print(i);
-        System.out.print(d.name);
-        System.out.print(d.run());
+        i.name="Nick";
+        System.out.print(i.name +"和"+d.name);
+        System.out.print(d.run()+i.run());
 
 
 
