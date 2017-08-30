@@ -2,11 +2,11 @@ package nick;
 
 public class Work  {
     public static void main(String[] args){
-        Person i = new Person();
-        Dog d = new Dog();
+        Animal i = new Animal("來西");
+        Animal j = new Animal("nick");
 
-        System.out.print( i.name+"和"+d.name);
+        System.out.print( i.name+"和"+j.name);
 
-        System.out.print(d.run()+i.run());
+        System.out.print(j.run()+i.run());
     }
 }
