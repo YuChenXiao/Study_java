@@ -13,14 +13,14 @@
 <body>
 <%
     String tmp = request.getParameter("number");
-    int i =0;
+    int i;
     if (tmp != null){
-        i=Integer.valueOf(tmp);
+        i=0;Integer.valueOf(tmp);
         i++;
     }
 %>
 <form action="web/17_6.jsp"method="post"></form>
-<input type="text" name="number" value="<%out.print(i);%>"/>
+<input type="text" name="number" value="<%out.print(tmp);%>"/>
 <input type="submit" value="確定"/>
 </body>
 </html>

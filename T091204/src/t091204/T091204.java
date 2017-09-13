@@ -23,19 +23,19 @@ public class T091204 {
         Scanner scanner = new Scanner(System.in);
         do
         {
-            System.out.print("½Ð²q¤@­Ó¼Æ¦r:");        
+            System.out.print("ï¿½Ð²");
             q = scanner.nextInt();
             if (q > ans)
             {
-                System.out.println("¤Ó¤j¤F");
+                System.out.println("ï¿½Ó¤jï¿½F");
             }
             else if (q < ans)
             {
-                System.out.println("¤Ó¤p¤F");
+                System.out.println("ï¿½Ó¤pï¿½F");
             }
             else
             {
-                System.out.println("µª¹ï¤F");
+                System.out.println("ï¿½ï¿½ï¿½ï¿½F");
             }    
         } while (q != ans);
         
